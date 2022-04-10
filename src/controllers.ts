@@ -1,11 +1,8 @@
 import { Movie, CompleteRequest, completeFile } from './interfaces'
-//const XLSX = require('xlsx')
-//const path = require('path')
 import fs = require('fs')
 const csv = require('csvtojson')
 const Movies = require('./model')
 import { Request, Response } from 'express'
-//import {File} from 'mv'
 
 const sendDefault = (req: Request, res: Response) => {
 	res.send('hello world')
