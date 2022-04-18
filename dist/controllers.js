@@ -11,7 +11,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const csv = require('csvtojson');
 const Movies = require('./model');
-//import {File} from 'mv'
 const sendDefault = (req, res) => {
     res.send('hello world');
 };
